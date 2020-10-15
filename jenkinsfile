@@ -11,7 +11,7 @@ def myImage
         /* This builds the actual image; synonymous to
          * docker build on the command line */
 
-        myImage = docker.build("sravanthij/dockerscriptimage")
+        myImage = docker.build("sravanthij/dockerscriptimage2.0")
     }
 
     stage('Test image') {
